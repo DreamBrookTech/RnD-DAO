@@ -2,47 +2,44 @@
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
 
-import fleekLogo from "../resources/fleekLogo.svg";
-import fleekIcon from "../resources/fleekIcon.svg";
-import astroLogo from "../resources/astroLogo.svg";
-import astroIcon from "../resources/astroIcon.svg";
+import RnDVerseLogo from "../resources/RnDVerse_logo.png";
 import addIcon from "../resources/addIcon.svg";
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="RnD-DAO | by RnDVerse">
   <main>
     <div class="title-container">
-      <img class="logo" src={fleekLogo} />
+      <img class="logo" src={RnDVerseLogo} />
       <img src={addIcon} />
-      <img class="logo" src={astroLogo} />
+      <img class="logo" src={RnDVerseLogo} />
     </div>
     <p class="description">
-      This is a template for creating an Astro site and deploying it on Fleek.
+      Welcome to the Landing Page for RnD-DAO
     </p>
     <ul role="list" class="link-card-grid">
       <Card
-        icon={fleekIcon}
-        href="https://docs.fleek.xyz/"
-        title="Fleek Documentation"
-        body="Learn about Fleek & the available services by cheking our official docs."
+        icon={RnDVerseLogo}
+        href="https://docs.rndverse.com/"
+        title="Documentation"
+        body="Learn about RnDVerse."
       />
       <Card
-        icon={astroIcon}
-        href="https://docs.astro.build/en/concepts/why-astro/"
-        title="Astro Documentation"
-        body="Learn about how Astro works and explore the official API docs."
+        icon={RnDVerseLogo}
+        href="https://docs.rndverse.com/"
+        title="More Documentation"
+        body="Learn about RnD-DAO"
       />
       <Card
-        icon={fleekIcon}
-        href="https://blog.fleek.xyz/"
-        title="Fleek Blog Post"
-        body="Checkout our Blog post about this Astro template."
+        icon={RnDVerseLogo}
+        href="https://docs.rndverse.com/"
+        title=" Blog Post"
+        body="Checkout our Blog post about RnD-DAO."
       />
       <Card
-        icon={astroIcon}
-        href="https://astro.build/integrations/"
-        title="Astro Integrations"
-        body="Supercharge your project with new frameworks and libraries."
+        icon={RnDVerseLogo}
+        href="https://docs.rndverse.com/"
+        title="Integrations"
+        body="Supercharge your Research with RnD-DAO."
       />
     </ul>
   </main>
