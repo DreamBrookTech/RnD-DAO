@@ -1,8 +1,17 @@
-# Astro + Fleek Starter Kit
+# RnD-DAO 
+powered by Astro + Fleek Starter Kit
 
-![image](https://github.com/fleekxyz/astro-template/assets/55561695/366f9f08-abf3-4377-878b-cc183a8dfb5f)
+## About
+In this project we are trying to build a specialized form of DAO, I called RnD-DAO, as in DAO for Research Team.   The general characteristics is this DAO (in addition to the normal properties of DAO, e.g., governance, voting, etc) will have a mechanism to store digital assets (think of actively Money Generating NFT), mechanism to share earnings from the digital asset, mechanism to convert work (like finishing a task, into a stake in the DAO ownership). I guess that's going to be the decent goal for the limited timeframe. 
 
-## 🚀 Project Structure
+As a prototype, I am aiming to make it into something like a 5-10 membered DAO, each member will have distict role (like funder, worker, admin, AI-Agents,etc.)
+
+The goal is less about building from scratch but to integrate several great components that already out there for this purpose. For instance AragonOS is a great starting point for the general DAO, since all the basic functionalities are already available, the digital asset can be set to work/earn in platform such as Fetch's AgentVerse, or Ocean Data Marketplace, or in the Human case the TalenT Layer network, etc. 
+
+I am not so familiar with the Celestia capability in storing big amount of complex data, if internal data storage is not available, the ideal solution stack is to integrate with IPFS/Filecoin/Arweave. 
+
+
+## 🚀 Project Structure based on Astro + Fleek Starter Kit
 
 Inside of your Astro project, you'll see the following folders and files:
 
